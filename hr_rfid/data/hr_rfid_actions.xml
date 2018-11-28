@@ -55,21 +55,21 @@
     <record id="hr_rfid_reader_action" model="ir.actions.act_window">
       <field name="name">Readers</field>
       <field name="res_model">hr.rfid.reader</field>
-			<field name="view_type">form</field> 
+      <field name="view_type">form</field> 
       <field name="view_mode">tree,form,search</field>
     </record>
 
     <record id="hr_rfid_event_user_action" model="ir.actions.act_window">
       <field name="name">User Events</field>
       <field name="res_model">hr.rfid.event.user</field>
-			<field name="view_type">form</field> 
+      <field name="view_type">form</field> 
       <field name="view_mode">tree,form,search,calendar</field>
     </record>
 
     <record id="hr_rfid_event_system_action" model="ir.actions.act_window">
       <field name="name">System Events</field>
       <field name="res_model">hr.rfid.event.system</field>
-			<field name="view_type">form</field>      
+      <field name="view_type">form</field>      
       <field name="view_mode">tree,form,search,calendar</field>
     </record>
 
